@@ -1,0 +1,47 @@
+header{
+display: flex;
+/* flex-direction: row; */
+ /*default susmaya gore  */
+}
+
+.logo{
+background-color: teal;
+width: 200;
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+.linkler{
+    background-color: yellow;
+}
+
+.linkler a {
+    font-size: 38px;
+    text-decoration: none;
+
+}
+
+
+
+.red {
+    color: red;
+}
+.brown {
+    color:brown;
+
+}
+
+.grey {
+    color: grey;
+}
+
+.black {
+    color: black;
+}
+
+.pink {
+     color: pink;
+}
