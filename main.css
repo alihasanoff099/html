@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+}
+
 header{
 display: flex;
+justify-content: space-between;
+align-items: center;
 /* flex-direction: row; */
  /*default susmaya gore  */
+ padding: 30px;
 }
+
 
 .logo{
 background-color: teal;
@@ -14,34 +22,24 @@ width: 200;
     width: 200px;
 }
 
-.linkler{
-    background-color: yellow;
+.linkler {
+    display: flex;
 }
 
 .linkler a {
-    font-size: 38px;
+    font-size: 24px;
     text-decoration: none;
+    color: white;
+    margin-right: 12px;
+
 
 }
 
-
-
-.red {
-    color: red;
-}
-.brown {
-    color:brown;
-
+.linkler a:hover {
+    transform: translateY(70px);
+    transition: transform 1.4s ease;
 }
 
-.grey {
-    color: grey;
-}
-
-.black {
-    color: black;
-}
-
-.pink {
-     color: pink;
+header {
+    background-color: blue;
 }
